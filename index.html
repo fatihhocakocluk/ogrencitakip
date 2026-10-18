@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Öğrenci Takip</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+<main class="card login">
+  <h1>Öğrenci Takip</h1>
+  <div class="tabs">
+    <button class="tab on" data-t="t">Öğretmen</button>
+    <button class="tab" data-t="v">Veli</button>
+  </div>
+  <form id="tf">
+    <label>E-posta<input id="u" type="email" autocomplete="username" required></label>
+    <label>Şifre<input id="p" type="password" autocomplete="current-password" required></label>
+    <button class="btn">Giriş yap</button>
+  </form>
+  <div id="vf" hidden>
+    <p class="mut">Veliler Google hesabıyla giriş yapar. Girişten sonra çocuğunuzun adını girerek bilgilerine ulaşırsınız.</p>
+    <button id="g" class="btn">Google ile giriş yap</button>
+  </div>
+  <p id="err" class="err"></p>
+</main>
+<script type="module" src="login.js"></script>
+</body>
+</html>

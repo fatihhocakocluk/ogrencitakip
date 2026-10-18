@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Öğretmen Paneli</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+<header class="top"><strong>Öğretmen paneli</strong><button id="out">Çıkış</button></header>
+<div class="layout">
+  <aside>
+    <div class="card">
+      <h3>Yeni öğrenci</h3>
+      <form id="add">
+        <label>Adı soyadı<input id="nm" required></label>
+        <label>Sınıf düzeyi<select id="grade"></select></label>
+        <button class="btn">Dosya aç</button>
+      </form>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <input id="q" placeholder="Öğrenci ara...">
+      <label class="chk"><input type="checkbox" id="arch"> Arşivdekileri göster</label>
+      <div id="list" class="list"></div>
+    </div>
+  </aside>
+  <main class="card">
+    <div id="hd"><p class="mut">Soldan bir öğrenci seçin veya yeni dosya açın.</p></div>
+    <div id="main"></div>
+  </main>
+</div>
+<script type="module" src="teacher.js"></script>
+</body>
+</html>
