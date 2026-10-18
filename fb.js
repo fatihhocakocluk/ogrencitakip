@@ -4,12 +4,12 @@ import * as A from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"
 import * as F from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "BURAYA",
-  authDomain: "BURAYA",
-  projectId: "BURAYA",
-  storageBucket: "BURAYA",
-  messagingSenderId: "BURAYA",
-  appId: "BURAYA"
+  apiKey: "AIzaSyDXMm8gMAOqnsAQWSV_yP2tl1xw58qCBtY",
+  authDomain: "kocluk-94371.firebaseapp.com",
+  projectId: "kocluk-94371",
+  storageBucket: "kocluk-94371.firebasestorage.app",
+  messagingSenderId: "208400449441",
+  appId: "1:208400449441:web:030d5a30d2a416e164d5e0",
 };
 
 const app = initializeApp(firebaseConfig);
