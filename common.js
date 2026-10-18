@@ -6,7 +6,7 @@ export const slug = n => n.trim().toLocaleLowerCase("tr")
   .replace(/ı/g, "i").replace(/ş/g, "s").replace(/ğ/g, "g").replace(/ü/g, "u").replace(/ö/g, "o").replace(/ç/g, "c")
   .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
-export const GRADES = ["5. Sınıf", "12. Sınıf", "Mezun"];
+export const GRADES = ["5. Sınıf", "6. Sınıf", "7. Sınıf", "8. Sınıf", "9. Sınıf", "10. Sınıf", "11. Sınıf", "12. Sınıf", "Mezun"];
 
 export const NET_FIELDS = [
   ["tyt_tr", "TYT Türkçe"], ["tyt_sos", "TYT Sosyal"], ["tyt_mat", "TYT Matematik"], ["tyt_fen", "TYT Fen"],
